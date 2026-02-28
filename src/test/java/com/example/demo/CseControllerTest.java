@@ -18,6 +18,8 @@ class CseControllerTest {
     void test() {
         Map<String, Object> response = c.addCSE(2, 3);
 
+        System.out.println("Test Output: " + response);
+
         assertEquals(5, response.get("result"));
         assertEquals("23MH1A0525", response.get("designed_by"));
     }

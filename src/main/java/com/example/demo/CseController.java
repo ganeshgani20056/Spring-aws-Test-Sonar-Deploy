@@ -14,7 +14,6 @@ public class CseController {
     public Map<String, Object> addCSE(@RequestParam int a, @RequestParam int b) {
 
         Map<String, Object> response = new HashMap<>();
-
         response.put("result", a + b);
         response.put("designed_by", "23MH1A0525");
 
